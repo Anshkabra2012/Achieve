@@ -35,14 +35,8 @@
 - **PDF Download**  
   Export your final plan to a clean, watermark-free PDF for easy distribution.
 
-- **Voice Input**  
-  Use your browser’s speech recognition (if available) to add goals by speaking instead of typing.
-
 - **Image-Based Inspiration**  
   Upload images that appear in the planner for extra motivation.
-
-- **Focus Mode**  
-  Hide or dim distracting UI elements so you can concentrate on what matters most.
 
 ---
 
