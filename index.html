@@ -3,32 +3,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Redirecting to home/</title>
-  <!-- Redirect to the home folder (relative path) -->
+  <title>Redirecting to home/ ...</title>
+  <!-- Immediately redirect to home/ (relative path) -->
   <meta http-equiv="refresh" content="0; url=home/">
 
-  <!-- Optional: Favicons -->
+  <!-- Example Favicons & Font Awesome with analytics=0 -->
   <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
   <link rel="manifest" href="favicons/site.webmanifest">
   <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
 
-  <!-- Font Awesome Premium Kit with analytics=0 -->
   <script src="https://kit.fontawesome.com/e328bff894.js?analytics=0" crossorigin="anonymous"></script>
 
-  <!-- Link to your main CSS (optional, for styling if the redirect fails) -->
+  <!-- (Optional) Link to your main CSS for styling if the redirect fails or is delayed -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <!-- Minimal UI if redirect fails or user sees a brief flash -->
-  <div class="header animate-fadeIn">
-    <a class="headertitle" href="#"><i class="fas fa-rocket"></i> Achieve</a>
-  </div>
-  <div class="vector"></div>
-  <div class="main animate-fadeIn" style="text-align: center;">
-    <h1><i class="fas fa-spinner fa-spin"></i> Redirecting to /home/</h1>
-    <p>If not redirected, click <a href="home/">here</a>.</p>
+  <div style="text-align:center; margin-top:80px;">
+    <h1>Redirecting to <code>home/</code> ...</h1>
+    <p>If you are not automatically redirected, use these links:</p>
+    <p>
+      <a href="home/">Go to <code>home/</code></a> • 
+      <a href="donate/">Go to <code>donate/</code></a>
+    </p>
   </div>
 </body>
 </html>
