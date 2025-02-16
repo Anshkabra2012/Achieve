@@ -1,6 +1,6 @@
 # Achieve - Your AI Goal Planner
 
-![Achieve Banner](https://user-images.githubusercontent.com/1234567/EXAMPLE_ACHIEVE_BANNER.png)
+![Achieve Banner](https://github.com/Anshkabra2012/Achieve/blob/4efc0a9510f62dfe0eb910c66f5b31086457f95e/image.png?raw=true)
 <!-- Replace the above link with the actual link to your banner image.
      You can upload your banner to your GitHub repo or an image host,
      then use the direct image URL here. -->
