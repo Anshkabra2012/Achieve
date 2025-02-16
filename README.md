@@ -6,7 +6,7 @@
      then use the direct image URL here. -->
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/Anshkabra2012/Achieve.svg)](https://github.com/Anshkabra2012/Achieve/stargazers)
+![GitHub Repo stars](https://img.shields.io/github/stars/AnshKabra2012/Achieve)
 [![Forks](https://img.shields.io/github/forks/Anshkabra2012/Achieve.svg)](https://github.com/Anshkabra2012/Achieve/network/members)
 [![Issues](https://img.shields.io/github/issues/Anshkabra2012/Achieve.svg)](https://github.com/Anshkabra2012/Achieve/issues)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?logo=paypal)](https://paypal.me/anshkabra)
