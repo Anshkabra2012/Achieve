@@ -1,3 +1,4 @@
+<!-- /home/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Achieve transforms your goal ideas into actionable plans. Enter your goal, get a concise plan, and download it as a PDF." />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Orbitron:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png">
@@ -16,7 +14,7 @@
   <link rel="manifest" href="../favicons/site.webmanifest">
   <link rel="shortcut icon" href="../favicons/favicon.ico" type="image/x-icon">
 
-  <!-- Font Awesome Premium Kit with analytics disabled -->
+  <!-- Font Awesome Premium Kit with analytics=0 -->
   <script src="https://kit.fontawesome.com/e328bff894.js?analytics=0" crossorigin="anonymous"></script>
 
   <!-- External libraries -->
@@ -33,10 +31,9 @@
   <div class="header animate-fadeIn">
     <a class="headertitle" href="#"><i class="fas fa-rocket"></i> Achieve</a>
     <div class="nav-links">
-      <!-- Link to /home and /donate for clarity -->
-      <a href="/home"><i class="fas fa-home"></i> Home</a>
-      <a href="#features"><i class="fas fa-star"></i> Features</a>
-      <a href="/donate"><i class="fas fa-donate"></i> Donate</a>
+      <a onclick="scrollToSection('planner')"><i class="fas fa-tasks"></i> Plan Your Goal</a>
+      <a onclick="scrollToSection('features')"><i class="fas fa-star"></i> Features</a>
+      <a onclick="scrollToSection('donate')"><i class="fas fa-donate"></i> Donate</a>
     </div>
   </div>
 
@@ -48,8 +45,8 @@
     <h1><i class="fas fa-lightbulb"></i> Achieve</h1>
     <h2 id="typewriter"><i class="fas fa-magic"></i> Your AI Goal Planner</h2>
     <div class="topbuttons">
-      <a class="btn" href="#planner"><i class="fas fa-arrow-right"></i> Start Planning</a>
-      <a class="btn" href="#features"><i class="fas fa-info-circle"></i> Learn More</a>
+      <button class="btn" onclick="scrollToSection('planner')"><i class="fas fa-arrow-right"></i> Start Planning</button>
+      <button class="btn" onclick="scrollToSection('features')"><i class="fas fa-info-circle"></i> Learn More</button>
     </div>
     <div class="scroll-down" onclick="scrollToSection('features')">
       <i class="fas fa-angle-down"></i>
@@ -60,15 +57,11 @@
   <section id="features" class="animate-slideIn">
     <h2><i class="fas fa-cogs"></i> Features</h2>
     <p>
-      <i class="fas fa-check-circle"></i> Transforms your goal ideas into actionable plans.<br>
-      <i class="fas fa-check-circle"></i> Tailored for planning, not just conversation.<br>
-      <i class="fas fa-check-circle"></i> Generates concise plans for quick clarity.<br>
-      <i class="fas fa-check-circle"></i> Downloadable PDF for easy sharing.<br>
-      <i class="fas fa-check-circle"></i> Calendar Integration.<br>
-      <i class="fas fa-check-circle"></i> Customizable Templates.<br>
-      <i class="fas fa-check-circle"></i> Real-Time Collaboration.<br>
-      <i class="fas fa-check-circle"></i> Progress Tracking.<br>
-      <i class="fas fa-check-circle"></i> Automated Reminders.
+      <i class="fas fa-check-circle"></i> AI Plan Generation<br>
+      <i class="fas fa-check-circle"></i> PDF Download (no watermark)<br>
+      <i class="fas fa-check-circle"></i> Voice Input<br>
+      <i class="fas fa-check-circle"></i> Image Inspiration<br>
+      <i class="fas fa-check-circle"></i> Focus Mode
     </p>
   </section>
 
@@ -76,18 +69,27 @@
   <section id="planner" class="animate-fadeIn">
     <h2><i class="fas fa-edit"></i> Plan Your Goal</h2>
     <p><i class="fas fa-pencil-alt"></i> Enter your goal and ideas below:</p>
-    <textarea id="goal-input" placeholder="e.g., I want to improve my public speaking skills by joining a club, practicing daily, and watching TED talks."></textarea>
+    <textarea id="goal-input" placeholder="e.g., I want to improve my public speaking skills..."></textarea>
     <br>
     <button id="generate-btn" class="btn"><i class="fas fa-cog"></i> Generate Plan</button>
     <div id="plan-box"></div>
     <button id="download-btn" class="btn" onclick="downloadPDF()"><i class="fas fa-download"></i> Download as PDF</button>
   </section>
 
+  <!-- Donation Section (Merged) -->
+  <section id="donate" class="animate-slideIn">
+    <h2><i class="fas fa-donate"></i> Support Achieve</h2>
+    <p>Your donation helps us improve this AI Goal Planner. Every contribution counts!</p>
+    <a class="btn" href="https://paypal.me/anshkabra" target="_blank">
+      <i class="fas fa-hand-holding-usd"></i> Donate via PayPal
+    </a>
+  </section>
+
   <!-- Footer -->
   <footer class="animate-fadeIn">
-    <p><i class="fas fa-copyright"></i> 2024 Achieve. All rights reserved.</p>
+    <p>© 2024 Achieve. All rights reserved.</p>
     <div class="footer-icons">
-      <a href="https://discord.gg/uTQWQNmTAy" target="_blank" title="Discord"><i class="fab fa-discord"></i></a>
+      <a href="https://discord.com/invite/yourserver" target="_blank" title="Discord"><i class="fab fa-discord"></i></a>
       <a href="https://tiktok.com/@anshthedev" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
       <a href="https://github.com/Anshkabra2012/Achieve" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
       <a href="https://x.com/anshkabra2012" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
