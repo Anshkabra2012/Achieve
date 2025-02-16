@@ -46,20 +46,19 @@
 
 ---
 
-## Screenshots (Optional)
+## Screenshots
 
 <details>
 <summary>Click to view screenshots</summary>
 
 **Landing Page**  
-![Landing Page](https://user-images.githubusercontent.com/1234567/EXAMPLE_landing.png)
+[![Screenshot-2025-02-16-124225.png](https://i.postimg.cc/XYYq84H9/Screenshot-2025-02-16-124225.png)](https://postimg.cc/rK7qyXLp)
 
 **Planner Section**  
-![Planner Section](https://user-images.githubusercontent.com/1234567/EXAMPLE_planner.png)
+[![Screenshot-2025-02-16-124358.png](https://i.postimg.cc/fW7bQJ1x/Screenshot-2025-02-16-124358.png)](https://postimg.cc/G92RkhL2)
+
 
 </details>
-
-*(You can remove this section if you prefer. Upload your screenshots to GitHub or an image host and replace the URLs.)*
 
 ---
 
