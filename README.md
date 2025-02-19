@@ -10,7 +10,6 @@
 [![Forks](https://img.shields.io/github/forks/Anshkabra2012/Achieve.svg)](https://github.com/Anshkabra2012/Achieve/network/members)
 [![Issues](https://img.shields.io/github/issues/Anshkabra2012/Achieve.svg)](https://github.com/Anshkabra2012/Achieve/issues)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?logo=paypal)](https://paypal.me/anshkabra)
-![Uptime Robot status](https://img.shields.io/uptimerobot/status/m798597049-7fece46da7a52634882bacc7)
 
 **Achieve** is an AI-powered goal planner that turns your ideas into concise, actionable plans. It streamlines your journey from setting goals to reaching them. Download your plan as a PDF with zero watermarks for easy sharing.
 
