@@ -9,7 +9,6 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/AnshKabra2012/Achieve)
 [![Forks](https://img.shields.io/github/forks/Anshkabra2012/Achieve.svg)](https://github.com/Anshkabra2012/Achieve/network/members)
 [![Issues](https://img.shields.io/github/issues/Anshkabra2012/Achieve.svg)](https://github.com/Anshkabra2012/Achieve/issues)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?logo=paypal)](https://paypal.me/anshkabra)
 
 **Achieve** is an AI-powered goal planner that turns your ideas into concise, actionable plans. It streamlines your journey from setting goals to reaching them. Download your plan as a PDF with zero watermarks for easy sharing.
 
